@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Media-aritimética</string>
+    <string name="Calcular">Calcular</string>
+    <string name="nota1">Nota1</string>
+    <string name="nota_1">Nota 1</string>
+    <string name="nota2">Nota2</string>
+    <string name="nota_2">Nota 2</string>
+    <string name="faltas">Faltas</string>
+</resources>
