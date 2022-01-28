@@ -1,5 +1,6 @@
 package br.com.alura.media_aritimtica
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
@@ -21,9 +22,11 @@ class MainActivity : AppCompatActivity() {
 
             if(media >= 6 && faltas <= 10) {
                 resultado.text = "Aluno foi aprovado \n Nota Final: ${media} \n Faltas: ${faltas}"
+                resultado.setTextColor(Color.GREEN)
             }
             else {
                 resultado.text = "Aluno foi reprovado \n Nota Final: ${media} \n Faltas: ${faltas}"
+                resultado.setTextColor(Color.RED)
             }
         }
     }
